@@ -37,39 +37,46 @@ h4{
 
 /*how do you make page NOT scroll Right*/
 header {
-    background-color: #ffffff;
-    border-bottom: solid 2px #dddddd;
     height: 65px;
 }
 .tabs {
     position: relative;
     bottom: 60px;
     left: 1000px;
-    color: #777777;
+    color: white;
+    font-weight: bolder;
 }
 #about-me {
     border-right: #dddddd solid 1px;
     padding: 10px;
-    color: #777777;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 #portfolio {
     border-right: #dddddd solid 1px;
     padding: 10px;
-    color: #777777;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 #Contact {
     border-right: #dddddd solid 1px;
     padding: 10px;
-    color: #777777;
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: url(../images/concrete_seamless.png);
+    background-image: url(../images/miami-3015760_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
-
 
 #main-section-content { 
     background-color: #ffffff;
@@ -158,3 +165,9 @@ footer {
     margin: 0;  
     border-top: solid 7px #4aaaa5;
 }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
