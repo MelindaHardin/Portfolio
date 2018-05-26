@@ -149,57 +149,55 @@
 
       </div>
 
-      <header>
-        <div class="connect">
-          <h3>
-            Connect
-          </h3>
-          <a href="https://github.com/MelindaHardin">
-            <img src="assets/images/git.png" alt="Git Hub" height="50px" width="85px" id="git" />
-          </a>
 
-          <a href="https://www.linkedin.com/in/melinda-hardin-1745b280/">
-            <img src="assets/images/Linked.png" alt=LinkedIn height="50px" width="70px" id="Linked" />
-          </a>
+      <h4 id="mdo">Contact</h4>
 
+      <div class="connect">
+
+        <a href="https://github.com/MelindaHardin">
+          <img src="assets/images/git.png" alt="Git Hub" height="50px" width="85px" id="git" />
+        </a>
+
+        <a href="https://www.linkedin.com/in/melinda-hardin-1745b280/">
+          <img src="assets/images/Linked.png" alt=LinkedIn height="50px" width="70px" id="Linked" />
+        </a>
+
+      </div>
+
+      <form>
+
+        <div class="form-group">
+          <label for="name">name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="First Last">
         </div>
-        <br>
 
-        <h4 id="mdo">Contact</h4>
-        <form>
+        <div class="form-group">
+          <label for="emailInput">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="address@email.com">
+        </div>
 
-          <div class="form-group">
-            <label for="emailInput">Email address</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="address@email.com">
-          </div>
+        <div class="form-group">
+          <label for="phoneInput">Phone</label>
+          <input type="text" class="form-control" id="phoneInput" placeholder="(913)555-5555">
+        </div>
 
-          <div class="form-group">
-            <label for="name">name</label>
-            <input type="text" class="form-control" id="nameInput" placeholder="First Last">
-          </div>
 
-          <div class="form-group">
-            <label for="phoneInput">Phone</label>
-            <input type="text" class="form-control" id="phoneInput" placeholder="(913)555-5555">
-          </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control" id="messageInput" rows="4"></textarea>
+        </div>
+        <!-- Large modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">submit</button>
 
-          
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="messageInput" rows="4"></textarea>
-          </div>
-          <!-- Large modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">submit</button>
-
-          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                Nice to meet you!
-              </div>
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              Nice to meet you!
             </div>
           </div>
+        </div>
 
-        </form>
+      </form>
 
     </div>
 
