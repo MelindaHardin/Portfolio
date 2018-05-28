@@ -1,6 +1,10 @@
-h1, h4, h5, body, a, card-text{
+h5, body, a, card-text{
     font-family: 'Raleway', sans-serif;
-    
+}
+
+h1, h4{
+    color: goldenrod;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar{
@@ -14,9 +18,14 @@ h1, h4, h5, body, a, card-text{
 label {
     font-family: 'Raleway', sans-serif;
     font-size: larger;
+    color:goldenrod;
 }
-a:active{
+a.active{
     background-color: none;
+}
+
+a.nav-link:hover{
+    background-color: goldenrod;
 }
 .nav-link{
     color: black;
@@ -35,10 +44,23 @@ h4, .connect {
 
 .card {
     float: left;
+    padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
     text-align:center;
-    height: auto;
-    width: auto;   
+    height: 100px;
+    width: 100px;   
 }
+
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.btn {
+    background-color: goldenrod;
+}
+
+
 
