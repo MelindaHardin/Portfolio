@@ -20,8 +20,10 @@ label {
     font-size: larger;
     color:goldenrod;
 }
-a.active{
-    background-color: goldenrod;
+
+.nav-pills .nav-link.active {
+   background-color: transparent;
+   color: black; 
 }
 
 a.nav-link:hover{
