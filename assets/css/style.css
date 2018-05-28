@@ -21,7 +21,7 @@ label {
     color:goldenrod;
 }
 a.active{
-    background-color: none;
+    background-color: goldenrod;
 }
 
 a.nav-link:hover{
