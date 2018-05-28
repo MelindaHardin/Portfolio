@@ -21,11 +21,6 @@ label {
     color:goldenrod;
 }
 
-.nav-pills .nav-link.active {
-   background-color: transparent;
-   color: black; 
-}
-
 a.nav-link:hover{
     background-color: goldenrod;
 }
@@ -35,7 +30,6 @@ a.nav-link:hover{
 form{
     padding:50px;
     align-content: center;
-    margin-top: 20px;
 }
 
 h4, .connect {
@@ -62,6 +56,10 @@ body {
 
 .btn {
     background-color: goldenrod;
+}
+
+footer {
+    text-align: center;
 }
 
 
