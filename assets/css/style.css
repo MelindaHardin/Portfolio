@@ -12,7 +12,7 @@ header,
     background-position: center;
 }
 
-h3, h5 {
+h1, h2, h5 {
     color:wheat;
     text-align: center;
 }
@@ -21,3 +21,22 @@ h3, h5 {
     margin:auto;
     display:block;  
 }
+
+.card {
+    float: left;
+    width: 60%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+#contactForm, .connect{
+    clear: both;
+    text-align: center;
+}
+
+.card-title, .nav-link {
+    color: orange;
+}
+ #me-image{
+     float: left;
+     padding: 15px;
+ }
