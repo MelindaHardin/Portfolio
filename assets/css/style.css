@@ -28,9 +28,10 @@ h1, h2, h3, h5 {
     margin-left: 6px;
     margin-right: 6px;
 }
-#contactForm, .connect{
+.cont{
     clear: both;
     text-align: center;
+    padding: 15px;
 }
 
 .card-title, .nav-link {
@@ -56,5 +57,32 @@ h1, h2, h3, h5 {
      height: 200px;
      width: 100%;
      background-color: gray;
+     padding: 25px;
  }
+
+ #skillsCard{
+     height: 500px;
+ }
+
+ .card-body, .tab-content{
+     padding: 20px;
+ }
+
+ ul {
+     column-count: 2;
+     list-style-type: circle;
+     
+ }
+
+body{
+    background-image: url(../images/MHcenter.JPG);
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 
