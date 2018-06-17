@@ -12,7 +12,7 @@ header,
     background-position: center;
 }
 
-h1, h2, h5 {
+h1, h2, h3, h5 {
     color:wheat;
     text-align: center;
 }
@@ -37,6 +37,24 @@ h1, h2, h5 {
     color: orange;
 }
  #me-image{
-     float: left;
      padding: 15px;
+     float: left;
+     border-radius: 50%;
  }
+
+ .skills{
+     clear: both;
+    
+ }
+
+ #projects{
+     clear: both;
+     padding: 30px;
+ }
+
+ footer {
+     height: 200px;
+     width: 100%;
+     background-color: gray;
+ }
+
