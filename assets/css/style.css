@@ -4,6 +4,11 @@ header,
 #intro {
     height: 100%;
 }
+.navbar {     
+    background-color: slategray;
+    color: beige;
+
+}
 
 #intro {
     background-image: url(../images/sky.jpg);
@@ -56,7 +61,7 @@ h1, h2, h3, h5 {
  footer {
      height: 200px;
      width: 100%;
-     background-color: gray;
+     background-color: slategray;
      padding: 25px;
  }
 
