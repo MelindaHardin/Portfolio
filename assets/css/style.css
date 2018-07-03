@@ -65,6 +65,11 @@ h1, h2, h3, h5 {
      padding: 25px;
  }
 
+ #copy{
+     text-align: center;
+     
+ }
+
  #skillsCard{
      height: 500px;
  }
