@@ -54,6 +54,9 @@ h5 {
 #projects {
   clear: both;
   padding: 30px;
+  border-radius: 0.125rem;
+  background-color: #fff;
+  margin-bottom: 125px;
 }
 
 footer {
@@ -98,4 +101,8 @@ body {
 .card {
   width: 100%;
   margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #027a62 !important;
 }
