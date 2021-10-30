@@ -2,97 +2,107 @@ html,
 body,
 header,
 #intro {
-    height: 100%;
+  height: 100%;
 }
-.navbar {     
-    background-color: slategray;
-    color: beige;
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: slategray;
+  color: beige;
 }
 
 #intro {
-    background-image: url(../images/sky.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../images/sky.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-h1, h2, h3, h5 {
-    color:wheat;
-    text-align: center;
+h1,
+h2,
+h3,
+h5 {
+  color: #369c87;
+  text-align: center;
 }
 
 .btn {
-    margin:auto;
-    display:block;  
+  margin: auto;
+  display: block;
 }
 
 .card {
-    float: left;
-    width: 60%;
-    margin-left: 6px;
-    margin-right: 6px;
+  float: left;
+  width: 60%;
+  margin-left: 6px;
+  margin-right: 6px;
 }
-.cont{
-    clear: both;
-    text-align: center;
-    padding: 15px;
-}
-
-.card-title, .nav-link {
-    color: orange;
-}
- #me-image{
-     padding: 15px;
-     float: left;
-     border-radius: 50%;
- }
-
- .skills{
-     clear: both;
-    
- }
-
- #projects{
-     clear: both;
-     padding: 30px;
- }
-
- footer {
-     height: 200px;
-     width: 100%;
-     background-color: slategray;
-     padding: 25px;
- }
-
- #copy{
-     text-align: center;
-     
- }
-
- #skillsCard{
-     height: 500px;
- }
-
- .card-body, .tab-content{
-     padding: 20px;
- }
-
- ul {
-     column-count: 2;
-     list-style-type: circle;
-     
- }
-
-body{
-    background-image: url(../images/MHcenter.JPG);
-    min-height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.cont {
+  clear: both;
+  text-align: center;
+  padding: 15px;
 }
 
+.card-title,
+.nav-link {
+  color: #369c87;
+}
 
+.card-title:hover,
+.nav-link:hover {
+  color: #184d42;
+  text-decoration: underline;
+}
+#me-image {
+  padding: 15px;
+  float: left;
+  border-radius: 50%;
+}
+
+.skills {
+  clear: both;
+}
+
+#projects {
+  clear: both;
+  padding: 30px;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: slategray;
+  padding: 25px;
+}
+
+#copy {
+  text-align: center;
+}
+
+#skillsCard {
+  height: 500px;
+}
+
+.card-body,
+.tab-content {
+  padding: 20px;
+}
+
+ul {
+  column-count: 2;
+  list-style-type: circle;
+}
+
+body {
+  background-image: url(../images/MHcenter.JPG);
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
