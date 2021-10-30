@@ -35,28 +35,12 @@ h5 {
   display: block;
 }
 
-.card {
-  float: left;
-  width: 60%;
-  margin-left: 6px;
-  margin-right: 6px;
-}
 .cont {
   clear: both;
   text-align: center;
   padding: 15px;
 }
 
-.card-title,
-.nav-link {
-  color: #369c87;
-}
-
-.card-title:hover,
-.nav-link:hover {
-  color: #184d42;
-  text-decoration: underline;
-}
 #me-image {
   padding: 15px;
   float: left;
@@ -87,11 +71,6 @@ footer {
   height: 500px;
 }
 
-.card-body,
-.tab-content {
-  padding: 20px;
-}
-
 ul {
   column-count: 2;
   list-style-type: circle;
@@ -105,4 +84,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.accordion {
+  width: 50%;
+  margin: 175px auto;
+}
+
+.accordion-body {
+  padding: 1rem 3.25rem;
+}
+
+.card {
+  width: 100%;
+  margin-bottom: 30px;
 }
