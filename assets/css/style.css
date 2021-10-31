@@ -54,9 +54,12 @@ h5 {
 #projects {
   clear: both;
   padding: 30px;
-  border-radius: 0.125rem;
-  background-color: #fff;
   margin-bottom: 125px;
+  background-color: #fff;
+}
+h3.section-title {
+  background-color: #fff;
+  margin-bottom: 0;
 }
 
 footer {
@@ -90,7 +93,7 @@ body {
 }
 
 .accordion {
-  width: 50%;
+  max-width: 1322px;
   margin: 125px auto;
 }
 
@@ -105,4 +108,10 @@ body {
 
 .btn-primary {
   background-color: #027a62 !important;
+}
+
+.card.contact-form {
+  max-width: 1322px;
+  margin: auto;
+  margin-bottom: 125px;
 }
