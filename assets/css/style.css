@@ -115,3 +115,7 @@ body {
   margin: auto;
   margin-bottom: 125px;
 }
+
+.card-body{
+  min-height: 200px;
+}
