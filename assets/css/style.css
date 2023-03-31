@@ -119,3 +119,7 @@ body {
 .card-body{
   min-height: 200px;
 }
+
+#nav-name{
+  padding: 1rem;
+}
